@@ -1,0 +1,25 @@
+h1 {
+    background-color: hsla(143, 84%, 34%, 0.701);
+    color: white;
+}
+p { background-color: rgb(36, 17, 97);
+    color: white;
+
+}
+/* h3 {
+    background-color: tomato;
+    color: white;
+}
+h4 {
+    background-color: tomato;
+    color: white;
+}
+h5 {
+    background-color: tomato;
+    color: white;
+} */
+    h3, h4,h5 
+    {
+        background-color: tomato;
+        color: white;
+    }
