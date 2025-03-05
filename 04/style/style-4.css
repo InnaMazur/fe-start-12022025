@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    /* Background */
+background: rgb(167, 215, 197);
+font-family: "Karla", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+form{
+    border-radius: 49.09px;
+
+/* Form Bg */
+background: rgb(246, 251, 249);
+padding: 67px 63px 82px 60px;
+width: 698px;
+/* height:auto */
+text-align: center;
+margin: 100px auto;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 49.09px;
+    border: none;
+}
+h1{
+    color: rgb(33, 43, 39);
+font-size: 55.23px;
+font-weight: 700;
+line-height: 71.79px;
+margin-top: 0px;
+margin-bottom: 6px;
+
+}
+.sub-text{
+    color: rgb(50, 64, 59);
+font-size: 23.01px;
+line-height: 29.91px;
+margin-top: 0px;
+margin-bottom: 49px;
+}
+.form-input{
+    padding: 32px  33px  ;
+    width: 575.27px;
+    display: inline-block;
+border: 1.53px solid rgba(0, 0, 0, 0.1);
+border-radius: 15.34px;
+
+background: rgb(255, 255, 255);
+
+}
+.input-block{
+    margin-bottom: 23px;
+}
+.input-block:last-child{
+    margin-bottom: 32px;
+} 
+.form-button{
+    border-radius: 23.01px;
+
+background: rgb(132, 199, 174);
+display: inline-block;
+width: 391.19px;
+padding: 23px 73px;
+color: rgb(255, 255, 255);
+font-size: 33.75px;
+font-weight: 700;
+line-height: 43.87px;
+border: 1px solid rgb(132, 199, 174);
+margin-bottom: 17px;
+}
+.form-button:hover{
+    background: rgb(87, 123, 83);
+    border:1px solid rgb(30, 46, 40) ;
+}
+p{
+    margin: 0;
+    color: rgb(50, 64, 59);
+font-size: 21.48px;
+line-height: 27.92px;
+
+}
