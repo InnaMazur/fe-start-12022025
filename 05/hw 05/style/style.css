@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    font-weight: 400;
+
+
+}
+
+header{
+    position: sticky;
+    z-index: 2;
+    height: 161px;
+    top: 0;
+  background: rgb(255, 255, 255);
+  
+  
+    
+}
+.wide-content{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    height: 78px;
+    padding-top: 47px;
+    padding-bottom: 36px;
+    z-index: 3;
+    
+
+}
+.Logo{
+position: absolute;
+z-index: 4;
+width: 37px;
+height: auto;
+left: 0;
+
+}
+.fbicon{
+position: absolute;
+width: 29px;
+height: auto;
+right: 58px;
+
+z-index: 4;
+}
+.instaicon{
+    position: absolute;
+    z-index: 4;
+    right: 0;
+    width: 25px;
+    height: auto;
+}
+.regular-content{
+    background: rgb(250, 201, 96);
+    height: 421px;
+
+}
+.block-unlimited{
+    position: relative;
+    z-index: 1;
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 102px;
+    padding-bottom: 117px;
+    height: 237px;
+}
+h1{
+    color: rgb(138, 109, 47);
+    font-size: 44px;
+    line-height: 54px;
+    letter-spacing: 0%;
+ 
+}
+
+input{
+    border-radius: 2px 0px 0px 2px;
+    border: none;
+background: rgb(255, 255, 255);
+width: 560px;
+height: 54px;
+display: inline-block;
+margin-top: 40px;
+vertical-align: middle;
+font-size: 30px;
+
+}
+
+input::placeholder{
+width: 330px;
+height: 54px;
+color: rgb(153, 153, 153);
+font-size: 30px;
+line-height: 54px;
+letter-spacing: 0%;
+padding-left: 36px;
+padding-right: 194px;
+top: 0.2px;
+
+}
+.invite{
+    display: inline-block;
+    width: 240px;
+    height: 54px;
+    border-radius: 0px 2px 2px 0px;
+background: rgb(168, 134, 61);
+border: none;
+color: rgb(255, 255, 255);
+font-size: 30px;
+vertical-align: middle;
+margin-top: 40px;
+
+}
+.invite:hover{
+coursor: pointer;
+transform: scale(1.1);
+}
+
+.space-content{
+     background: rgb(242, 242, 242);
+    height: 438px;
+
+
+}
+.block-space{
+    position: relative;
+    z-index: 1;
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 81px;
+ 
+}
+h3{
+    color: rgba(0, 0, 0, 0.56);
+font-size: 37px;
+line-height: 36px;
+letter-spacing: 0%;
+padding-bottom: 32px;
+
+
+}
+.infinity{
+    color: rgba(0, 0, 0, 0.4);
+font-size: 23px;
+line-height: 30px;
+letter-spacing: 0%;
+margin: 0 auto;
+padding-bottom: 56px;
+width: 819px ;
+left: 61px
+}
+.mobile-content{
+  /* height: 625px; */
+    background: rgb(255, 255, 255);
+}
+.block-mobile{
+    padding-top: 93px;
+    /* padding-bottom: 61px; */
+    background: rgb(255, 255, 255);
+position: relative;
+z-index: 1;
+width: 940px;
+/* height: 449px; */
+margin: 0 auto;
+}
+h3{
+    color: rgba(0, 0, 0, 0.56);
+font-size: 37px;
+line-height: 36px;
+letter-spacing: 0%;
+
+
+}
+.mobile{
+    color: rgba(0, 0, 0, 0.4);
+font-size: 23px;
+line-height: 30px;
+letter-spacing: 0%;
+margin: 0 auto;
+padding-top: 32px;
+padding-bottom: 32px;
+width: 819px;
+
+}
+.mobile-img{
+    
+    padding-bottom: 22px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.tell-content{
+    background: rgb(250, 201, 96);
+    height: 313px;
+}
+.block-friends{
+    padding-top: 58px;
+    padding-bottom: 58px;
+
+position: relative;
+z-index: 1;
+/* width: 940px; */
+height: 197px;
+
+}
+h3{
+    padding-bottom:   31px;
+    color: rgb(138, 109, 47);
+font-size: 37px;
+line-height: 36px;
+letter-spacing: 0%;
+}
+.tell{
+    padding-bottom: 33px;
+    color: rgba(0, 0, 0, 0.4);
+font-size: 22px;
+line-height: 30px;
+letter-spacing: 0%;
+
+}
+.button-tell{
+    box-sizing: border-box;
+border: 1px solid rgb(117, 134, 150);
+border-radius: 3px;
+
+background: rgb(255, 255, 255);
+width: 61px;
+height: 22px;
+
+}
+.logo-footer{
+    /* background: rgb(242, 242, 242); */
+    height: 240px;
+}
+.logo-content{
+    text-align: center;
+    padding-top: 81px;
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    width: 940;
+}
+
+.Logo-1{
+    width: 37px;
+    height: 37px;
+    margin-bottom: 30px;
+  
+}
+.instaicon-1{
+    width: 18px;
+    height: 15px;
+    
+
+     
+}
+   
+.facebook{
+
+    width: 17px;
+    height: 17px;
+  
+   
+}
+.frame{
+    width: 17px;
+    height: 15px;
+    
+   
+}
+.icons-footer{
+    display: inline-block;   
+
+}
+    /* .icons-footer img:first-child{
+    left:  17px;
+    }
+    .icons-footer img:last-child{
+        right: 17px;
+    } */
+    
