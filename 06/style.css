@@ -2,13 +2,14 @@
     box-sizing: border-box;
 }
 body{
-    width: 100%;
+    
     height: 100%;
     background-image: url(../06/img/Rectangle\ 1.png);
     margin: 0;
 background-position: top center;
 background-size: cover;
 background-repeat: no-repeat;
+background-color: black;
 
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -18,13 +19,18 @@ background-repeat: no-repeat;
 header{
     display: flex;
     align-items: center;
-    /* padding: 40px 35px 33px 118px; */
+    padding: 42px 33px 118px 40px;
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 33px;
-    margin-top: 35px;
-    margin-bottom: 121px;
+    /* margin-top: 35px;
+    margin-bottom: 121px; */
+    
 
+}
+.header-left{
+    display: flex;
+    align-items: center;
 }
 .logo{
     width: 156px;
@@ -37,11 +43,11 @@ font-size: 24px;
 font-weight: 500;
 line-height: 29px;
 letter-spacing: 0%;
-padding-left: 82px;
-
+padding-left: 34px;
+border-left: 2px solid white;
+margin-left: 48px;
+display: inline-block;
 bottom: 18px;
-position: relative;
-
 }
 .search{
     padding-right: 48px;
@@ -62,34 +68,75 @@ position: relative;
 main{
     padding-left: 40px;
     padding-bottom: 49px;
-    width: 853px;
+    width: 902px;
 }
 .genre{
     display: flex;
     color: white;
-    column-gap: 30px;
+    /* column-gap: 30px; */
+    font-size: 32px;
+    font-weight: 500px;
+    line-height: 39px;
+    letter-spacing: 0;
+    
+
+}
+.genre span{
+    display: inline-block;
+    padding: 1px 18px;
+    border-left: 3px solid white;
+}
+.genre span:first-child{
+    border-left: none;
+    
 }
 .show-title{
     color: rgb(225, 225, 225);
     font-size: 64px;
     font-weight: 800px;
     line-height: 77px;
-    letter-spacing: 5.5%;
+    letter-spacing: 5.5;
     text-align: left;
     margin-bottom: 17px;
+    margin-top: 15px;
 
 }
-.details{
-    font-size: 29px;
+
+.film-info{
+
+    font-weight: 500;
+    font-size: 30px;
+ letter-spacing: 0;
+ color: white;
+ display: flex;
+ align-items: center;
+ gap: 20px;
+ 
+ 
+ }
+ .info div{
+     display: flex;
+     align-items: center;
+ 
+ }
+ .info div:not(:last-child) :not(:nth-child(2)) ::after{
+     content: "";
+     width: 3px;
+     height: 4px;
+     margin-left: 10px;
+     
+     color: white;
+ }
+ .film-info span{
+    display: inline-block;
     font-weight: 400;
+    font-size: 29px;
     line-height: 0px;
-    letter-spacing: 0%;
-    text-align: left;
-    color: white;
-    
+color: gray;
+
 }
 .description{
-    margin-top: 8px;
+    margin-top: 15px;
     margin-bottom: 0;
     color: rgb(167, 166, 166);
 font-size: 24px;
@@ -186,7 +233,7 @@ text-align: left;
 }
 .movies{
     display: flex;
-    gap: 50px;
+    gap: 40px;
     margin-bottom: 49px;
     justify-content: space-between;
 }

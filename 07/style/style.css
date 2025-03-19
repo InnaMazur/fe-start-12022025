@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    background-image: url(../img/bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+  }
+  
+
+
+.big-shoulders-stencil{
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+
+
+
+  }
+
+  
+
+header{
+    padding: 42px 33px 118px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-block img{
+    width: 156px;
+    height: 48px;
+}
+.logo-block span{
+    color: rgb(200, 200, 200);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    padding-left: 82px;
+    bottom: 18px;
+    position: relative;
+
+
+}
+.logo-block span::before{
+    content: "";
+    display: inline-block;
+    left:-13px;
+    width: 3px solid white;
+
+}
+
+.search{
+    padding-right: 48px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: white;
+    font-size: 35px;
+    border: none;
+    top: -22px;
+
+}
+.user-pic img{
+    font-size: 74px;
+}
+
+
+
+.user-block button{
+
+    border: none;
+    color: white;
+    font-size: 35px;
+}
+
+main{
+   padding-left: 40px;
+    padding-bottom: 49px;
+    max-width: 902px;
+}
+button{
+    background-color: transparent;
+}
+.janr{
+    font-size: 32px;
+    font-weight: 500px;
+    line-height: 39px;
+    letter-spacing: 0;
+    color: white;
+    display: flex;
+
+}
+.janr span{
+    display: inline-block;
+    padding: 1px 18px;
+    border-left: 3px solid white;
+}
+
+.janr span:first-child{
+    border-left: none;
+}
+h1{
+    color: rgb(255, 255, 255);
+font-size: 64px;
+font-weight: 800;
+line-height: 77px;
+letter-spacing: 5.5px;
+margin-top: 65px;
+margin-bottom: 17px;
+}
+
+.film-info{
+
+   font-weight: 500;
+   font-size: 30px;
+letter-spacing: 0;
+color: white;
+display: flex;
+align-items: center;
+gap: 20px;
+
+
+}
+.info div{
+    display: flex;
+    align-items: center;
+
+}
+.info div:not(:last-child) :not(:nth-child(2)) ::after{
+    content: "";
+    width: 3px;
+    height: 4px;
+    margin-left: 10px;
+    
+    color: white;
+}
+
+.film-info span{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 0px;
+color: gray;
+
+
+}
+
+
+
+
+
+.age{
+    background-color: gray;
+   
+    bottom: 103px;
+    right: 0;
+    background-color: gray;
+    border-left: 33px solid red;
+    padding: 26px 15px 33px 14px;
+    position: fixed;
+   border-left: 33px solid red;
+    color: white;
+    font-size: 24px;
+    width: 174px;
+    height: 66px;
+
+
+}
