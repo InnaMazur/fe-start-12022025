@@ -177,7 +177,8 @@ font-size: 22px;
 font-weight: 500;
 line-height: 141.52%;
 letter-spacing: 0%;
-text-align: left;
+/* text-align: left; */
+text-align: center;
 }
 .stream i{
     font-size: 28px;
