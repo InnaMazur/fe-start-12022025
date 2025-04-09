@@ -14,7 +14,7 @@ header, main{
     width: 81,8%;
     display: flex;
     justify-content: space-between;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     padding-left: 9,37%;
     padding-right: 9,37%;
 }
@@ -26,6 +26,7 @@ header{
     align-items: center;
     /* justify-content: space-between; */
     /* gap: 275px; */
+
 
 
 }
@@ -81,11 +82,18 @@ background: transparent;
 border: none;
 
 }
-
+/* main{
+    width: 81,8%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+} */
 
 .left-box{
     width: 34,86%;
     padding-bottom: 44px;
+    
   
   
 }
@@ -95,7 +103,8 @@ border: none;
 }
 .right-box{
     width: 53,3%;
-    margin-left: 145px;
+   margin-left: 150px;
+
 }
 .text-box{
     border-right:1px solid rgb(51, 51, 51);
@@ -189,14 +198,6 @@ padding-top: 33px;
     background-color: transparent;
 
 }
-/* main{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-
-    gap: 145px;
-} */
 .icon:hover{
 color: white;
 background-color: rgb(242, 153, 74);
@@ -249,5 +250,49 @@ span{
     line-height: 1px;
     color: white;
 }
+@media screen and (max-width:860px){
+    header,main{
+        flex-direction: column;
+
+    }
+}
+.menu{
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.category{
+    gap: 5px;
+}
+/* .left-box{
+    width: 100%;
+}
+.right-box{
+    width: 100%;
+}  */
+.text-box{
+    border-right: none;
+    padding-right: 0px;
+}
+/* footer{
+    width: 100%;
+} */
+.designe{
+    width: 100%;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.description{
+    width: 100%;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.container{
+    width: 100%;
+  margin-left: 0;
+}
+
+
 
 
