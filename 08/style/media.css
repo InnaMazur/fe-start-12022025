@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 body{
-
-    width: 100%;
+   width: 100%;
     margin: 0 auto;
     /* height: 100%; */
     font-family: Nunito Sans, Roboto;
@@ -11,43 +10,20 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-.container{
-    
-    width: 81,8%;
+
+.container{  
+    width: 81.8%;
     margin: 0 auto;
-    padding-left: 9,37%;
-    padding-right: 9,37%;
+    /* padding-left: 9,37%;
+    padding-right: 9,37%; */
   display: flex;
-  justify-content: space-between;
-
-
-   
+  justify-content: space-between;  
 }
 header{
- 
     padding-top: 4,3%;
     padding-bottom: 11,1%;
- 
-    margin-bottom: 160px;
-    
-   
-   
-  
-    
- 
-/* /* display: flex;
-    justify-content: space-between; */
-    /* align-items: center;
-    text-align: center; */
-    /* padding-left: 9,37%; */
-    
-    
-    
-  
-
-
+    margin-bottom: 160px; 
 }
-
 .logo{
 color: rgb(0, 0, 0);
 font-family: Roboto, sans-serif;
@@ -62,9 +38,7 @@ letter-spacing: 2px;
 gap: 35px;
 justify-content: space-between;
 align-items: center;
-flex-direction: row;
-
- 
+flex-direction: row; 
     
 }
 a{
@@ -96,7 +70,7 @@ background: rgb(242, 153, 74);
 font-size: 19px;
 line-height: 120%;
 letter-spacing: 1px;
-
+align-items: center;
 }
 .search{    
 font-size: 20px;

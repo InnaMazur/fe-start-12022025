@@ -3,7 +3,8 @@
 }
 :root{
     
-   --background-image: url(../image/Bg.png);
+   /* --background-image: url(../image/Bg.png); */
+   --button-color: rgb(33, 158, 188);
 }
 body{
     width: 100%;
@@ -18,5 +19,48 @@ body{
     font-optical-sizing: auto;
 }
 header{
+    padding: 30px 60px 80px 60px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    align-content: center;
     
 }
+.Logo{
+    font-size: 91px;
+}
+button{
+width: 193px;
+height: 61px;
+display: inline-block;
+padding: 16px 40px 16px 40px;
+border-radius: 6px;
+border: none;
+background-color: var(--button-color);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+}
+button:hover{
+    background-color: rgb(165, 165, 65);
+    color: black;
+    cursor: pointer;
+}
+.menu{
+    font-size: 32px;
+    padding-left: 30px;
+    display: inline-block;
+}
+.content{
+    width: 83%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 37.13%  42%;
+    justify-content: space-between;
+    /* column-gap: 103px; */
+    
+}
+
