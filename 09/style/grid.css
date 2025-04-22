@@ -6,10 +6,12 @@
    --background-image: url(../image/Bg.png);
    --button-color: rgb(33, 158, 188);
    --text-color: white;
+   --border-color:white;
 }
 body{
+    /* height: 100vh; */
     width: 100%;
-    margin: 0 auto;
+    margin: 0 ;
     font-family: "Lora", "Inter", sans-serif;
    background-image: var(--background-image);
     background-size: cover;
@@ -18,23 +20,47 @@ body{
     font-weight: 500;
     font-style: normal;
     font-optical-sizing: auto;
+    /* padding-left: 3.12%; */
+    /* padding-right: 3.12%; */
+    /* padding-bottom: 5%; */
 }
 header{
     padding: 30px 60px 80px 60px;
+/* padding-top: 30px; */
+/* padding-bottom: 80px; */
+margin: 0 auto ;
+width: 93.7%;
+/* width : 100%; */
     display: grid;
     grid-template-columns: 1fr auto;
-    align-items: center;
+    align-items:center;
     align-content: center;
+    justify-content: space-between;
     
 }
 .Logo{
     font-size: 91px;
+    /* padding-top: 30px; */
+    padding-left: 0;
+    /* margin: 0; */
+  
+ 
+    
+    
+}
+.book-now{
+    padding-top:45px;
+
+    display: inline-block;
 }
 button{
 width: 193px;
 height: 61px;
 display: inline-block;
+
 padding: 16px 40px 16px 40px;
+/* margin-top: 45px; */
+margin-bottom: 95px;
 border-radius: 6px;
 border: none;
 background-color: var(--button-color);
@@ -53,28 +79,40 @@ button:hover{
 .menu{
     font-size: 32px;
     padding-left: 30px;
-    display: inline-block;
+    /* padding-right: 60px; */
+ display:inline-block
 }
-.content{
-    width: 83%;
-    margin: 0 auto;
+main{
+    width: 93.7%;
+   
+    margin: 0 auto ;
+    padding: 0 60px;
     display: grid;
-    grid-template-columns: 37.13%  42%;
+    grid-template-columns: 43.2%  46%;
     justify-content: space-between;
-    /* column-gap: 103px; */
     align-items: center;
-    text-align: center;
-  
-    
+    align-content: center;
+
+/* column-gap: 86px; */
 }
+
 .left{
+   margin-top: -650px;
     border-radius: 20px;
-    padding-left: 0;
-    padding-top: 0;
-    /* margin-right: 5.36%; */
+    /* padding-top: -20px;  */
+ 
+   
+  
+}
+.big{
+
+    max-width: 100%;
 }
 .right{
-    padding-left: 103px;
+ 
+    /* padding-top: 95px; */
+    /* margin-top: 95px; */
+    margin-bottom: 117px;
     /* padding-right: 0; */
     display: flex;
     flex-direction: column;
@@ -87,22 +125,94 @@ h1{
 /* height: 226px; */
 
 font-family: Lora;
-font-size: 88px;
+font-size: 4.58vw;
 font-weight: 600;
 line-height: 113px;
 letter-spacing: 0%;
+font-optical-sizing: auto;
 display: flex;
 flex-wrap: wrap;
-text-align: start;
-/* text-align: center; */
+text-align: left;
 padding-bottom: 13%;
 padding-left: 103px;
 
 
 
+
 }
 .explore{
+/* padding-left: 52px; */
+padding-bottom: 45px;
+}
+label{
+    width: 482px;
+    height: 41px;
+    /* left: 1012px; */
+    color: var(--text-color);
+    font-family: Lora;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-right: 20px;
+}
+select{
+    width: 124px;
+    height: 51px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--text-color);
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0;
+    border-color: var(--border-color);
+ /* border-color: 1px solid white; */
+ /* border-color: var(--text-color); */
+ /* text-align-last: left; */
+ /* display: inline-block; *
+ 
+ /* text-align: center; */
+
 
 }
+.img-block{
+    width: 41%;
+ 
+    display: grid;
+    align-items: center;
+    grid-template-columns: 32px repeat(3, 239px) 32px;
+    /* column-gap: 39px; */
 
+/* column-gap: 0; */
+}
+.photo-block{
+    display: grid;
+    justify-items: stretch;
+    column-gap: 39px;
+}
+.slide-left{
+    display: grid;
+   width: 32px;
+   text-align: center;
+   background-color: transparent;
+    color: rgb(38, 43, 44);
+}
+.slide-right{
+    display: grid;
+   width: 32px;
+   text-align: center;
+   background-color: transparent;
+    color: rgb(38, 43, 44);
+}
+a{
+    color: rgb(33, 158, 188);
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: end;
+padding-top: 84px;
+
+}
 
